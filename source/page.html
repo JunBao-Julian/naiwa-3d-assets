@@ -1,0 +1,16 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  html,body{margin:0;padding:0;background:#000;width:1920px;height:1080px;overflow:hidden}
+  #gl{position:absolute;left:0;top:0;width:1920px;height:1080px}
+  #ov{position:absolute;left:0;top:0;width:1920px;height:1080px;pointer-events:none;
+      font-family:"Inter","Noto Sans CJK SC",sans-serif;color:#f5f5f7;-webkit-font-smoothing:antialiased}
+  .t{position:absolute;white-space:nowrap;will-change:transform,opacity,filter}
+</style></head>
+<body>
+<canvas id="gl" width="1920" height="1080"></canvas>
+<div id="ov"></div>
+<script src="engine.js"></script>
+<script src="scenes.js"></script>
+<script src="timeline.js"></script>
+</body></html>
